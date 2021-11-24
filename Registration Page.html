@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>REGISTERATION FORM</title>
+    <style>
+        body{
+           background-color:rgb(148, 234, 245); }
+</style>
+</head>
+
+<h1>REGISTERATION FORM</h1>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="fname">Middle name:</label>
+        <input type="text" id="mname" name="mname"><br><br>
+        <label for="fname">Family name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <p>Gender:<input type="radio"  value="Female"><label for="html">Female</label><input type="radio" value="Male"><label for="html">Male</label> </p>
+        <label for="fname">Email Address:</label>
+        <input type="text" id="Email" name="email"><br><br>
+        <label for="address">Home Address:</label>
+        <textarea id="Address" name="address" rows="1" cols="40"></textarea><br>
+        <p>HOBBIES:<br> 
+        <input type="checkbox" id="comp" name="hob1" value="Computergames">
+        <label for="hob1"> Computer Games </label><br>
+        <input type="checkbox" id="music" name="hob2" value="music">
+        <label for="hob2"> Playing music instruments</label><br>
+        <input type="checkbox" id="cooking" name="hob3" value="cooking">
+        <label for="hob3">  Cooking</label><br>
+        <input type="checkbox" id="draw" name="hob4" value="drawing">
+        <label for="hob4">Drawing</label> </p>
+        <label for="Favorite Color">Choose your Favorite Color:</label>
+  <select name="colors" id="colors">
+    <option value="pink">Red</option>
+    <option value="purple">Purple</option>
+    <option value="blue">Gray</option>
+    <option value="black">Black</option>
+    <option value="yellow">Yellow</option>
+    <option value="yellow">Green</option>
+    <option value="yellow">Blue</option>
+  </select><br><br>
+  <label for="self">Say something about yourself:</label>
+        <textarea id="self" name="self" rows="1" cols="40"></textarea><br><br>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+        </form>
+        </body>
+</html>
